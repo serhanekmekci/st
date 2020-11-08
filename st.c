@@ -1096,7 +1096,6 @@ tswapscreen(void)
 }
 
 void
-<<<<<<< HEAD
 kscrolldown(const Arg* a)
 {
 	int n = a->i;
