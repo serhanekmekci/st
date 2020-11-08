@@ -216,6 +216,7 @@ static Shortcut shortcuts[] = {
 	{ Mod1Mask|ShiftMask,   XK_K,           kscrollup,      {.i = 5} },
 	{ Mod1Mask|ShiftMask,   XK_J,           kscrolldown,    {.i = 5} },
 
+	{ TERMMOD,              XK_Return,      newterm,        {.i =  0} },
 };
 
 /*
