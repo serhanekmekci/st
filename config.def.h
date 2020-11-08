@@ -205,8 +205,8 @@ static Shortcut shortcuts[] = {
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
 	{ ShiftMask,            XK_Page_Up,     kscrollup,      {.i = -1} },
 	{ ShiftMask,            XK_Page_Down,   kscrolldown,    {.i = -1} },
-	{ AltMask,              XK_K,           kscrollup,      {.i = 5} },
-	{ AltMask,              XK_J,           kscrolldown,    {.i = 5} },
+	{ Mod1Mask|ShiftMask,   XK_K,           kscrollup,      {.i = 5} },
+	{ Mod1Mask|ShiftMask,   XK_J,           kscrolldown,    {.i = 5} },
 
 };
 
