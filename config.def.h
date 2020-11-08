@@ -5,7 +5,7 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-static char *font = "Input:style=Regular:size=12:antialias=true:autohint=true:style=Regular";
+static char *font = "Iosevka:style=Regular:size=12:antialias=true:autohint=true:style=Regular";
 static int borderpx = 2;
 
 /*
