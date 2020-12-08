@@ -6,6 +6,12 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 static char *font = "Iosevka:style=Regular:size=12:antialias=true:autohint=true";
+
+/* Spare fonts */
+static char *font2[] = {
+	"Fira Code:style=Regular:size=12:antialias=true:autohint=true",
+};
+
 static int borderpx = 2;
 
 /*
@@ -74,7 +80,7 @@ static unsigned int cursorthickness = 2;
  * 0: disable (render all U25XX glyphs normally from the font).
  */
 const int boxdraw = 1;
-const int boxdraw_bold = 1;
+const int boxdraw_bold = 0;
 
 /* braille (U28XX):  1: render as adjacent "pixels",  0: use font */
 const int boxdraw_braille = 1;
