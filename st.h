@@ -84,9 +84,6 @@ void die(const char *, ...);
 void redraw(void);
 void draw(void);
 
-void historyShiftY(Arg const *ly);
-void historyQuit();
-
 void kscrolldown(const Arg *);
 void kscrollup(const Arg *);
 void externalpipe(const Arg *);
